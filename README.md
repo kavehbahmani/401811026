@@ -1,4 +1,4 @@
-# GNSS-Signal Setup
+# GNSS-Signal
 
 Year: 2022  
 Course: VHDL  
