@@ -1,0 +1,8 @@
+vhdl work "shift_reg.vhd"
+vhdl work "RSC.vhd"
+vhdl work "mux8t1.vhd"
+vhdl work "mux3t1.vhd"
+vhdl work "interleaver.vhd"
+vhdl work "freq_divider3t1.vhd"
+vhdl work "encoder.vhd"
+vhdl work "tb_encoder.vhd"

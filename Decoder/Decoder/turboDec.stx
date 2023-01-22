@@ -1,0 +1,155 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to D:/PhD/Semester/Term 1/VHDL/Project/Turbo Code/Decoder/Decoder/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.11 secs
+ 
+--> Parameter xsthdpdir set to D:/PhD/Semester/Term 1/VHDL/Project/Turbo Code/Decoder/Decoder/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.11 secs
+ 
+--> Reading design: turboDec.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "D:\PhD\Semester\Term 1\VHDL\Project\Turbo Code\Decoder\Decoder\turbopack.vhd" into library work
+Parsing package <turbopack>.
+Parsing VHDL file "D:\PhD\Semester\Term 1\VHDL\Project\Turbo Code\Decoder\Decoder\mux2.vhd" into library work
+Parsing entity <mux2>.
+Parsing architecture <synth> of entity <mux2>.
+Parsing VHDL file "D:\PhD\Semester\Term 1\VHDL\Project\Turbo Code\Decoder\Decoder\cmp2.vhd" into library work
+Parsing entity <cmp2>.
+Parsing architecture <synth> of entity <cmp2>.
+Parsing VHDL file "D:\PhD\Semester\Term 1\VHDL\Project\Turbo Code\Decoder\Decoder\reg.vhd" into library work
+Parsing entity <reg>.
+Parsing architecture <synth> of entity <reg>.
+Parsing VHDL file "D:\PhD\Semester\Term 1\VHDL\Project\Turbo Code\Decoder\Decoder\reduction.vhd" into library work
+Parsing entity <reduction>.
+Parsing architecture <synth> of entity <reduction>.
+Parsing VHDL file "D:\PhD\Semester\Term 1\VHDL\Project\Turbo Code\Decoder\Decoder\partDistance.vhd" into library work
+Parsing entity <partDistance>.
+Parsing architecture <synth> of entity <partdistance>.
+Parsing VHDL file "D:\PhD\Semester\Term 1\VHDL\Project\Turbo Code\Decoder\Decoder\opposite.vhd" into library work
+Parsing entity <opposite>.
+Parsing architecture <synth> of entity <opposite>.
+Parsing VHDL file "D:\PhD\Semester\Term 1\VHDL\Project\Turbo Code\Decoder\Decoder\mux4.vhd" into library work
+Parsing entity <mux4>.
+Parsing architecture <synth> of entity <mux4>.
+Parsing VHDL file "D:\PhD\Semester\Term 1\VHDL\Project\Turbo Code\Decoder\Decoder\min8.vhd" into library work
+Parsing entity <min8>.
+Parsing architecture <synth> of entity <min8>.
+Parsing VHDL file "D:\PhD\Semester\Term 1\VHDL\Project\Turbo Code\Decoder\Decoder\min4.vhd" into library work
+Parsing entity <min4>.
+Parsing architecture <synth> of entity <min4>.
+Parsing VHDL file "D:\PhD\Semester\Term 1\VHDL\Project\Turbo Code\Decoder\Decoder\distance.vhd" into library work
+Parsing entity <distance>.
+Parsing architecture <synth> of entity <distance>.
+Parsing VHDL file "D:\PhD\Semester\Term 1\VHDL\Project\Turbo Code\Decoder\Decoder\cod3.vhd" into library work
+Parsing entity <cod3>.
+Parsing architecture <synth> of entity <cod3>.
+Parsing VHDL file "D:\PhD\Semester\Term 1\VHDL\Project\Turbo Code\Decoder\Decoder\cod2.vhd" into library work
+Parsing entity <cod2>.
+Parsing architecture <synth> of entity <cod2>.
+Parsing VHDL file "D:\PhD\Semester\Term 1\VHDL\Project\Turbo Code\Decoder\Decoder\adder.vhd" into library work
+Parsing entity <adder>.
+Parsing architecture <synth> of entity <adder>.
+Parsing VHDL file "D:\PhD\Semester\Term 1\VHDL\Project\Turbo Code\Decoder\Decoder\subs.vhd" into library work
+Parsing entity <subs>.
+Parsing architecture <synth> of entity <subs>.
+Parsing VHDL file "D:\PhD\Semester\Term 1\VHDL\Project\Turbo Code\Decoder\Decoder\stateSel.vhd" into library work
+Parsing entity <stateSel>.
+Parsing architecture <synth> of entity <statesel>.
+Parsing VHDL file "D:\PhD\Semester\Term 1\VHDL\Project\Turbo Code\Decoder\Decoder\mux8.vhd" into library work
+Parsing entity <mux8>.
+Parsing architecture <synth> of entity <mux8>.
+Parsing VHDL file "D:\PhD\Semester\Term 1\VHDL\Project\Turbo Code\Decoder\Decoder\distances.vhd" into library work
+Parsing entity <distances>.
+Parsing architecture <synth> of entity <distances>.
+Parsing VHDL file "D:\PhD\Semester\Term 1\VHDL\Project\Turbo Code\Decoder\Decoder\delayer.vhd" into library work
+Parsing entity <delayer>.
+Parsing architecture <synth> of entity <delayer>.
+Parsing VHDL file "D:\PhD\Semester\Term 1\VHDL\Project\Turbo Code\Decoder\Decoder\accDistSel.vhd" into library work
+Parsing entity <accDistSel>.
+Parsing architecture <synth> of entity <accdistsel>.
+Parsing VHDL file "D:\PhD\Semester\Term 1\VHDL\Project\Turbo Code\Decoder\Decoder\accDist.vhd" into library work
+Parsing entity <accDist>.
+Parsing architecture <synth> of entity <accdist>.
+Parsing VHDL file "D:\PhD\Semester\Term 1\VHDL\Project\Turbo Code\Decoder\Decoder\trellis2.vhd" into library work
+Parsing entity <trellis2>.
+Parsing architecture <synth> of entity <trellis2>.
+Parsing VHDL file "D:\PhD\Semester\Term 1\VHDL\Project\Turbo Code\Decoder\Decoder\trellis1.vhd" into library work
+Parsing entity <trellis1>.
+Parsing architecture <synth> of entity <trellis1>.
+Parsing VHDL file "D:\PhD\Semester\Term 1\VHDL\Project\Turbo Code\Decoder\Decoder\extInf.vhd" into library work
+Parsing entity <extInf>.
+Parsing architecture <synth> of entity <extinf>.
+Parsing VHDL file "D:\PhD\Semester\Term 1\VHDL\Project\Turbo Code\Decoder\Decoder\acs.vhd" into library work
+Parsing entity <acs>.
+Parsing architecture <synth> of entity <acs>.
+Parsing VHDL file "D:\PhD\Semester\Term 1\VHDL\Project\Turbo Code\Decoder\Decoder\zPermut.vhd" into library work
+Parsing entity <zPermut>.
+Parsing architecture <synth> of entity <zpermut>.
+Parsing VHDL file "D:\PhD\Semester\Term 1\VHDL\Project\Turbo Code\Decoder\Decoder\sova.vhd" into library work
+Parsing entity <sova>.
+Parsing architecture <synth> of entity <sova>.
+Parsing VHDL file "D:\PhD\Semester\Term 1\VHDL\Project\Turbo Code\Decoder\Decoder\interleaver.vhd" into library work
+Parsing entity <interleaver>.
+Parsing architecture <synth> of entity <interleaver>.
+Parsing VHDL file "D:\PhD\Semester\Term 1\VHDL\Project\Turbo Code\Decoder\Decoder\abPermut.vhd" into library work
+Parsing entity <abPermut>.
+Parsing architecture <synth> of entity <abpermut>.
+Parsing VHDL file "D:\PhD\Semester\Term 1\VHDL\Project\Turbo Code\Decoder\Decoder\punct.vhd" into library work
+Parsing entity <punct>.
+Parsing architecture <synth> of entity <punct>.
+Parsing VHDL file "D:\PhD\Semester\Term 1\VHDL\Project\Turbo Code\Decoder\Decoder\limiter.vhd" into library work
+Parsing entity <limiter>.
+Parsing architecture <synth> of entity <limiter>.
+Parsing VHDL file "D:\PhD\Semester\Term 1\VHDL\Project\Turbo Code\Decoder\Decoder\iteration.vhd" into library work
+Parsing entity <iteration>.
+Parsing architecture <synth> of entity <iteration>.
+Parsing VHDL file "D:\PhD\Semester\Term 1\VHDL\Project\Turbo Code\Decoder\Decoder\clkDiv.vhd" into library work
+Parsing entity <clkDiv>.
+Parsing architecture <synth> of entity <clkdiv>.
+Parsing VHDL file "D:\PhD\Semester\Term 1\VHDL\Project\Turbo Code\Decoder\Decoder\turboDec.vhd" into library work
+Parsing entity <turboDec>.
+Parsing architecture <synth> of entity <turbodec>.
+
+
+Total REAL time to Xst completion: 6.00 secs
+Total CPU time to Xst completion: 6.37 secs
+ 
+--> 
+
+Total memory usage is 4494916 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

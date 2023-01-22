@@ -1,0 +1,81 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o D:/PhD/Semester/Term 1/VHDL/Project/Turbo Code/Decoder/Decoder/tb_sova_isim_beh.exe -prj D:/PhD/Semester/Term 1/VHDL/Project/Turbo Code/Decoder/Decoder/tb_sova_beh.prj work.tb_sova 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "D:/PhD/Semester/Term 1/VHDL/Project/Turbo Code/Decoder/Decoder/turbopack.vhd" into library work
+Parsing VHDL file "D:/PhD/Semester/Term 1/VHDL/Project/Turbo Code/Decoder/Decoder/mux2.vhd" into library work
+Parsing VHDL file "D:/PhD/Semester/Term 1/VHDL/Project/Turbo Code/Decoder/Decoder/cmp2.vhd" into library work
+Parsing VHDL file "D:/PhD/Semester/Term 1/VHDL/Project/Turbo Code/Decoder/Decoder/reg.vhd" into library work
+Parsing VHDL file "D:/PhD/Semester/Term 1/VHDL/Project/Turbo Code/Decoder/Decoder/reduction.vhd" into library work
+Parsing VHDL file "D:/PhD/Semester/Term 1/VHDL/Project/Turbo Code/Decoder/Decoder/partDistance.vhd" into library work
+Parsing VHDL file "D:/PhD/Semester/Term 1/VHDL/Project/Turbo Code/Decoder/Decoder/opposite.vhd" into library work
+Parsing VHDL file "D:/PhD/Semester/Term 1/VHDL/Project/Turbo Code/Decoder/Decoder/mux4.vhd" into library work
+Parsing VHDL file "D:/PhD/Semester/Term 1/VHDL/Project/Turbo Code/Decoder/Decoder/min8.vhd" into library work
+Parsing VHDL file "D:/PhD/Semester/Term 1/VHDL/Project/Turbo Code/Decoder/Decoder/min4.vhd" into library work
+Parsing VHDL file "D:/PhD/Semester/Term 1/VHDL/Project/Turbo Code/Decoder/Decoder/distance.vhd" into library work
+Parsing VHDL file "D:/PhD/Semester/Term 1/VHDL/Project/Turbo Code/Decoder/Decoder/cod3.vhd" into library work
+Parsing VHDL file "D:/PhD/Semester/Term 1/VHDL/Project/Turbo Code/Decoder/Decoder/cod2.vhd" into library work
+Parsing VHDL file "D:/PhD/Semester/Term 1/VHDL/Project/Turbo Code/Decoder/Decoder/adder.vhd" into library work
+Parsing VHDL file "D:/PhD/Semester/Term 1/VHDL/Project/Turbo Code/Decoder/Decoder/subs.vhd" into library work
+Parsing VHDL file "D:/PhD/Semester/Term 1/VHDL/Project/Turbo Code/Decoder/Decoder/stateSel.vhd" into library work
+Parsing VHDL file "D:/PhD/Semester/Term 1/VHDL/Project/Turbo Code/Decoder/Decoder/mux8.vhd" into library work
+Parsing VHDL file "D:/PhD/Semester/Term 1/VHDL/Project/Turbo Code/Decoder/Decoder/distances.vhd" into library work
+Parsing VHDL file "D:/PhD/Semester/Term 1/VHDL/Project/Turbo Code/Decoder/Decoder/delayer.vhd" into library work
+Parsing VHDL file "D:/PhD/Semester/Term 1/VHDL/Project/Turbo Code/Decoder/Decoder/accDistSel.vhd" into library work
+Parsing VHDL file "D:/PhD/Semester/Term 1/VHDL/Project/Turbo Code/Decoder/Decoder/accDist.vhd" into library work
+Parsing VHDL file "D:/PhD/Semester/Term 1/VHDL/Project/Turbo Code/Decoder/Decoder/trellis2.vhd" into library work
+Parsing VHDL file "D:/PhD/Semester/Term 1/VHDL/Project/Turbo Code/Decoder/Decoder/trellis1.vhd" into library work
+Parsing VHDL file "D:/PhD/Semester/Term 1/VHDL/Project/Turbo Code/Decoder/Decoder/extInf.vhd" into library work
+Parsing VHDL file "D:/PhD/Semester/Term 1/VHDL/Project/Turbo Code/Decoder/Decoder/acs.vhd" into library work
+Parsing VHDL file "D:/PhD/Semester/Term 1/VHDL/Project/Turbo Code/Decoder/Decoder/sova.vhd" into library work
+Parsing VHDL file "D:/PhD/Semester/Term 1/VHDL/Project/Turbo Code/Decoder/Decoder/tb_sova.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling package turbopack
+Compiling package std_logic_arith
+Compiling architecture synth of entity partDistance [\partDistance(0)\]
+Compiling architecture synth of entity partDistance [\partDistance(1)\]
+Compiling architecture synth of entity partDistance [\partDistance(2)\]
+Compiling architecture synth of entity partDistance [\partDistance(3)\]
+Compiling architecture synth of entity partDistance [\partDistance(4)\]
+Compiling architecture synth of entity partDistance [\partDistance(5)\]
+Compiling architecture synth of entity partDistance [\partDistance(6)\]
+Compiling architecture synth of entity partDistance [\partDistance(7)\]
+Compiling architecture synth of entity opposite [opposite_default]
+Compiling architecture synth of entity distance [distance_default]
+Compiling architecture synth of entity distances [distances_default]
+Compiling architecture synth of entity adder [\adder(8,0,8,0,8,0)\]
+Compiling architecture synth of entity reduction [reduction_default]
+Compiling architecture synth of entity reg [\reg(8,0,8,0)\]
+Compiling architecture synth of entity accDist [accdist_default]
+Compiling architecture synth of entity delayer [\delayer(23,8,0,8,0)\]
+Compiling architecture synth of entity mux8 [mux8_default]
+Compiling architecture synth of entity mux4 [\mux4(8,0,8,0,8,0,8,0,8,0)\]
+Compiling architecture synth of entity subs [\subs(8,0,8,0,8,0)\]
+Compiling architecture synth of entity cmp2 [\cmp2(8,0,8,0)\]
+Compiling architecture synth of entity mux2 [\mux2(8,0,8,0,8,0)\]
+Compiling architecture synth of entity min4 [\min4(8,0,8,0,8,0,8,0)\]
+Compiling architecture synth of entity cod2 [cod2_default]
+Compiling architecture synth of entity accDistSel [accdistsel_default]
+Compiling architecture synth of entity min8 [min8_default]
+Compiling architecture synth of entity cod3 [cod3_default]
+Compiling architecture synth of entity stateSel [statesel_default]
+Compiling architecture synth of entity acs [acs_default]
+Compiling architecture synth of entity trellis1 [trellis1_default]
+Compiling architecture synth of entity trellis2 [trellis2_default]
+Compiling architecture synth of entity delayer [\delayer(23,1,0,1,0)\]
+Compiling architecture synth of entity delayer [\delayer(36,4,0,4,0)\]
+Compiling architecture synth of entity delayer [\delayer(36,3,0,3,0)\]
+Compiling architecture synth of entity extInf [extinf_default]
+Compiling architecture synth of entity sova [sova_default]
+Compiling architecture behavior of entity tb_sova
+Time Resolution for simulation is 1ps.
+Waiting for 33 sub-compilation(s) to finish...
+Compiled 76 VHDL Units
+Built simulation executable D:/PhD/Semester/Term 1/VHDL/Project/Turbo Code/Decoder/Decoder/tb_sova_isim_beh.exe
+Fuse Memory Usage: 40140 KB
+Fuse CPU Usage: 921 ms

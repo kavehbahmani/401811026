@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="Decoder.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="abPermut.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="abPermut.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="abPermut.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="accDist.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="accDist.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="accDist.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="clkDiv.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="clkDiv.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="clkDiv.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="clkrst.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="clkrst.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="clkrst.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="coder.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="coder.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="coder.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="delayer.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="delayer.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="delayer.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="distance.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="distance.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="distance.xst"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="iteration.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="iteration.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="iteration.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="limiter.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="limiter.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="limiter.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="mux8.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="mux8.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="mux8.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="opposite.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="opposite.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="opposite.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="partDistance.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="partDistance.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="partDistance.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="punct.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="punct.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="punct.xst"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="sova_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="sova_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tb_sova_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="tb_sova_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="tb_sova_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tb_sova_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="tb_turboDec_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tb_turboDec_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="testbench_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="trellis1.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="trellis1.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="trellis1.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="turboDec.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="turboDec.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="turboDec.xst"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="zPermut.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="zPermut.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="zPermut.xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1674132309" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1674132309">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1674140058" xil_pn:in_ck="-1545623147577800081" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1674140058">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="abPermut.vhd"/>
+      <outfile xil_pn:name="accDist.vhd"/>
+      <outfile xil_pn:name="accDistSel.vhd"/>
+      <outfile xil_pn:name="acs.vhd"/>
+      <outfile xil_pn:name="adder.vhd"/>
+      <outfile xil_pn:name="clkDiv.vhd"/>
+      <outfile xil_pn:name="clkrst.vhd"/>
+      <outfile xil_pn:name="cmp2.vhd"/>
+      <outfile xil_pn:name="cod2.vhd"/>
+      <outfile xil_pn:name="cod3.vhd"/>
+      <outfile xil_pn:name="coder.vhd"/>
+      <outfile xil_pn:name="delayer.vhd"/>
+      <outfile xil_pn:name="distance.vhd"/>
+      <outfile xil_pn:name="distances.vhd"/>
+      <outfile xil_pn:name="extInf.vhd"/>
+      <outfile xil_pn:name="interleaver.vhd"/>
+      <outfile xil_pn:name="iteration.vhd"/>
+      <outfile xil_pn:name="limiter.vhd"/>
+      <outfile xil_pn:name="min4.vhd"/>
+      <outfile xil_pn:name="min8.vhd"/>
+      <outfile xil_pn:name="mux2.vhd"/>
+      <outfile xil_pn:name="mux4.vhd"/>
+      <outfile xil_pn:name="mux8.vhd"/>
+      <outfile xil_pn:name="opposite.vhd"/>
+      <outfile xil_pn:name="partDistance.vhd"/>
+      <outfile xil_pn:name="punct.vhd"/>
+      <outfile xil_pn:name="reduction.vhd"/>
+      <outfile xil_pn:name="reg.vhd"/>
+      <outfile xil_pn:name="sova.vhd"/>
+      <outfile xil_pn:name="stateSel.vhd"/>
+      <outfile xil_pn:name="subs.vhd"/>
+      <outfile xil_pn:name="tb_sova.vhd"/>
+      <outfile xil_pn:name="tb_turboDec.vhd"/>
+      <outfile xil_pn:name="trellis1.vhd"/>
+      <outfile xil_pn:name="trellis2.vhd"/>
+      <outfile xil_pn:name="turboDec.vhd"/>
+      <outfile xil_pn:name="turbopack.vhd"/>
+      <outfile xil_pn:name="zPermut.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1674139660" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="8393478956896762126" xil_pn:start_ts="1674139660">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1674139660" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="4709699566142096640" xil_pn:start_ts="1674139660">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1674132309" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="6885827789915541882" xil_pn:start_ts="1674132309">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1674139765" xil_pn:in_ck="-1545623147577800081" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1674139765">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="abPermut.vhd"/>
+      <outfile xil_pn:name="accDist.vhd"/>
+      <outfile xil_pn:name="accDistSel.vhd"/>
+      <outfile xil_pn:name="acs.vhd"/>
+      <outfile xil_pn:name="adder.vhd"/>
+      <outfile xil_pn:name="clkDiv.vhd"/>
+      <outfile xil_pn:name="clkrst.vhd"/>
+      <outfile xil_pn:name="cmp2.vhd"/>
+      <outfile xil_pn:name="cod2.vhd"/>
+      <outfile xil_pn:name="cod3.vhd"/>
+      <outfile xil_pn:name="coder.vhd"/>
+      <outfile xil_pn:name="delayer.vhd"/>
+      <outfile xil_pn:name="distance.vhd"/>
+      <outfile xil_pn:name="distances.vhd"/>
+      <outfile xil_pn:name="extInf.vhd"/>
+      <outfile xil_pn:name="interleaver.vhd"/>
+      <outfile xil_pn:name="iteration.vhd"/>
+      <outfile xil_pn:name="limiter.vhd"/>
+      <outfile xil_pn:name="min4.vhd"/>
+      <outfile xil_pn:name="min8.vhd"/>
+      <outfile xil_pn:name="mux2.vhd"/>
+      <outfile xil_pn:name="mux4.vhd"/>
+      <outfile xil_pn:name="mux8.vhd"/>
+      <outfile xil_pn:name="opposite.vhd"/>
+      <outfile xil_pn:name="partDistance.vhd"/>
+      <outfile xil_pn:name="punct.vhd"/>
+      <outfile xil_pn:name="reduction.vhd"/>
+      <outfile xil_pn:name="reg.vhd"/>
+      <outfile xil_pn:name="sova.vhd"/>
+      <outfile xil_pn:name="stateSel.vhd"/>
+      <outfile xil_pn:name="subs.vhd"/>
+      <outfile xil_pn:name="tb_sova.vhd"/>
+      <outfile xil_pn:name="tb_turboDec.vhd"/>
+      <outfile xil_pn:name="trellis1.vhd"/>
+      <outfile xil_pn:name="trellis2.vhd"/>
+      <outfile xil_pn:name="turboDec.vhd"/>
+      <outfile xil_pn:name="turbopack.vhd"/>
+      <outfile xil_pn:name="zPermut.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1674139771" xil_pn:in_ck="-1545623147577800081" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="5776871615168184668" xil_pn:start_ts="1674139765">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="tb_sova_beh.prj"/>
+      <outfile xil_pn:name="tb_sova_isim_beh.exe"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1674139772" xil_pn:in_ck="-4920223782786238783" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="8735899971240114751" xil_pn:start_ts="1674139771">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="tb_sova_isim_beh.wdb"/>
+    </transform>
+  </transforms>
+
+</generated_project>

@@ -1,0 +1,8 @@
+vhdl isim_temp "shift_reg.vhd"
+vhdl isim_temp "RSC.vhd"
+vhdl isim_temp "mux8t1.vhd"
+vhdl isim_temp "mux3t1.vhd"
+vhdl isim_temp "interleaver.vhd"
+vhdl isim_temp "freq_divider3t1.vhd"
+vhdl isim_temp "encoder.vhd"
+vhdl isim_temp "tb_encoder.vhd"

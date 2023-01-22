@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "D:/PhD/Semester/Term 1/VHDL/Project/Turbo Code/Encoder/tb_encoder_isim_beh.exe" -prj "D:/PhD/Semester/Term 1/VHDL/Project/Turbo Code/Encoder/tb_encoder_beh.prj" "work.tb_encoder" 
