@@ -1,0 +1,28 @@
+Command line:
+   tb_sova_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  59722
+
+Thu Jan 19 18:19:37 2023
+
+
+ Elaboration Time: 0.25 sec
+
+ Current Memory Usage: 5343.78 Meg
+
+ Total Signals          : 980
+ Total Nets             : 10512
+ Total Signal Drivers   : 289
+ Total Blocks           : 362
+ Total Primitive Blocks : 202
+ Total Processes        : 226
+ Total Traceable Variables  : 226
+ Total Scalar Nets and Variables : 11348
+
+ Total Simulation Time: 0.40625 sec
+
+ Current Memory Usage: 4871.93 Meg
+
+Thu Jan 19 18:21:53 2023
+

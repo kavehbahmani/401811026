@@ -1,0 +1,28 @@
+Command line:
+   tb_RSC_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  57695
+
+Thu Jan 19 12:16:15 2023
+
+
+ Elaboration Time: 0.171875 sec
+
+ Current Memory Usage: 5318.73 Meg
+
+ Total Signals          : 16
+ Total Nets             : 10
+ Total Signal Drivers   : 10
+ Total Blocks           : 9
+ Total Primitive Blocks : 5
+ Total Processes        : 10
+ Total Traceable Variables  : 18
+ Total Scalar Nets and Variables : 498
+
+ Total Simulation Time: 0.234375 sec
+
+ Current Memory Usage: 5161.45 Meg
+
+Thu Jan 19 12:17:27 2023
+

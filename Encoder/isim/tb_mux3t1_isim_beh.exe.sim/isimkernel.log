@@ -1,0 +1,10 @@
+Command line:
+   tb_mux3t1_isim_beh.exe
+     -simmode  gui
+     -simrunnum  1
+     -socket  57686
+
+Thu Jan 19 12:10:02 2023
+
+
+ Elaboration Time: 0.125 sec

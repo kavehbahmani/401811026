@@ -1,0 +1,28 @@
+Command line:
+   tb_freq_divider3t1_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  57674
+
+Thu Jan 19 11:59:14 2023
+
+
+ Elaboration Time: 0.171875 sec
+
+ Current Memory Usage: 5318.62 Meg
+
+ Total Signals          : 7
+ Total Nets             : 5
+ Total Signal Drivers   : 5
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 4
+ Total Traceable Variables  : 9
+ Total Scalar Nets and Variables : 366
+
+ Total Simulation Time: 0.171875 sec
+
+ Current Memory Usage: 5161.33 Meg
+
+Thu Jan 19 12:01:11 2023
+

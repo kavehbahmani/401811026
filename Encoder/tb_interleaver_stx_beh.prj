@@ -1,0 +1,2 @@
+vhdl isim_temp "interleaver.vhd"
+vhdl isim_temp "tb_interleaver.vhd"

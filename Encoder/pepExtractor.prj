@@ -1,0 +1,7 @@
+work	"RSC.vhd"
+work	"encoder.vhd"
+work	"freq_divider3t1.vhd"
+work	"interleaver.vhd"
+work	"mux3t1.vhd"
+work	"mux8t1.vhd"
+work	"shift_reg.vhd"
