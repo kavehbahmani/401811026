@@ -1,12 +1,12 @@
 In order to have reliable communication, channel coding is often employed. Turbo codes as a powerful coding technique have been widely studied and used in communication systems. Turbo coding is an advanced forward error correction algorithm. The decoding is the main step of channel codding and SOVA algorithm is one way to do that. In this project, two main goals of turbo code simulation with MATLAB and implementation on FPGA (VHDL Code) have been followed, which is summarized in four main sections with different subsections (functions and entities) as follows:
 #	Simulation of turbo coding by MATLAB
-##	Encoding (Main Function)
-##	Interlevear
-##	RCS
-2.	Turbo decoding simulation by MATLAB
-a.	Alfa
-b.	Beta
-c.	Decoder (Main Function)
+1. Encoding (Main Function)
+2.	Interlevear
+3. RCS
+#	Turbo decoding simulation by MATLAB
+1.	Alfa
+2.	Beta
+3.	Decoder (Main Function)
 d.	Deinterlevear2
 e.	Demultiplex
 f.	Gama_Sr_Ss2
