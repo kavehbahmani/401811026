@@ -7,30 +7,30 @@ In order to have reliable communication, channel coding is often employed. Turbo
 1.	Alfa
 2.	Beta
 3.	Decoder (Main Function)
-d.	Deinterlevear2
-e.	Demultiplex
-f.	Gama_Sr_Ss2
-g.	Interlevear_decoder
-h.	M_alfa_beta_gama
-i.	Match_data_parity
-j.	Probablity_bit_data
-k.	Trelis2
-3.	Describe and test the turbo coding by VHDL
-a.	Encoder (TOP LEVEL)
-b.	freq_divider3t1
-c.	interleaver
-d.	mux3t1
-e.	mux8t1
-f.	RSC
-g.	shift_reg
-h.	tb_encoder
-i.	tb_freq_divider3t1
-j.	tb_interleaver
-k.	tb_mux3t1
-l.	tb_mux8t1
-m.	tb_RSC
-n.	tb_shift_reg
-4.	Describe and test the turbo decoding by VHDL
+4.	Deinterlevear2
+5.	Demultiplex
+6.	Gama_Sr_Ss2
+7.	Interlevear_decoder
+8.	M_alfa_beta_gama
+9.	Match_data_parity
+10.	Probablity_bit_data
+11.	Trelis2
+#	Describe and test the turbo coding by VHDL
+1.	Encoder (TOP LEVEL)
+2.	freq_divider3t1
+3.	interleaver
+4.	mux3t1
+5.	mux8t1
+6.	RSC
+7.	shift_reg
+8.	tb_encoder
+9.	tb_freq_divider3t1
+10.	tb_interleaver
+11.	tb_mux3t1
+12.	tb_mux8t1
+13.	tb_RSC
+14.	tb_shift_reg
+#	Describe and test the turbo decoding by VHDL
 a.	abPermut
 b.	accDist
 c.	accDistSel
