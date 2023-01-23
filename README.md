@@ -1,95 +1,91 @@
 In order to have reliable communication, channel coding is often employed. Turbo codes as a powerful coding technique have been widely studied and used in communication systems. Turbo coding is an advanced forward error correction algorithm. The decoding is the main step of channel codding and SOVA algorithm is one way to do that. In this project, two main goals of turbo code simulation with MATLAB and implementation on FPGA (VHDL Code) have been followed, which is summarized in four main sections with different subsections (functions and entities) as follows:
-1.	Simulation of turbo coding by MATLAB
-a.	Encoding (Main Function)
-b.	Interlevear
-c.	RCS
-2.	Turbo decoding simulation by MATLAB
-a.	Alfa
-b.	Beta
-c.	Decoder (Main Function)
-d.	Deinterlevear2
-e.	Demultiplex
-f.	Gama_Sr_Ss2
-g.	Interlevear_decoder
-h.	M_alfa_beta_gama
-i.	Match_data_parity
-j.	Probablity_bit_data
-k.	Trelis2
-3.	Describe and test the turbo coding by VHDL
-a.	Encoder (TOP LEVEL)
-b.	freq_divider3t1
-c.	interleaver
-d.	mux3t1
-e.	mux8t1
-f.	RSC
-g.	shift_reg
-h.	tb_encoder
-i.	tb_freq_divider3t1
-j.	tb_interleaver
-k.	tb_mux3t1
-l.	tb_mux8t1
-m.	tb_RSC
-n.	tb_shift_reg
-4.	Describe and test the turbo decoding by VHDL
-a.	abPermut
-b.	accDist
-c.	accDistSel
-d.	acs
-e.	adder
-f.	clkDiv
-g.	clkrst
-h.	cmp2
-i.	cod2
-j.	cod3
-k.	coder
-l.	delayer
-m.	distance
-n.	distances
-o.	extInf
-p.	interleaver
-q.	iteration
-r.	limiter
-s.	min4
-t.	min8
-u.	mux2
-v.	mux4
-w.	mux8
-x.	opposite
-y.	partDistance
-z.	punct
-aa.	reduction
-bb.	reg
-cc.	sova (TOP LEVEL)
-dd.	stateSel
-ee.	subs
-ff.	tb_sova
-gg.	tb_turboDec
-hh.	trellis1
-ii.	trellis2
-jj.	turboDec (TOP LEVEL)
-kk.	turbopack
-ll.	zPermut
-
-System and Application requirements
-The application requirements for using Turbo-Code are:
-•	MATLAB version (2022b) or later.
-•	Xilinx ISE 14.7.
-
-Running the Matlab turbo code simulation:
+#	Simulation of turbo coding by MATLAB
+1. Encoding (Main Function)
+2.	Interlevear
+3. RCS
+#	Turbo decoding simulation by MATLAB
+1.	Alfa
+2.	Beta
+3.	Decoder (Main Function)
+4.	Deinterlevear2
+5.	Demultiplex
+6.	Gama_Sr_Ss2
+7.	Interlevear_decoder
+8.	M_alfa_beta_gama
+9.	Match_data_parity
+10.	Probablity_bit_data
+11.	Trelis2
+#	Describe and test the turbo coding by VHDL
+1.	Encoder (TOP LEVEL)
+2.	freq_divider3t1
+3.	interleaver
+4.	mux3t1
+5.	mux8t1
+6.	RSC
+7.	shift_reg
+8.	tb_encoder
+9.	tb_freq_divider3t1
+10.	tb_interleaver
+11.	tb_mux3t1
+12.	tb_mux8t1
+13.	tb_RSC
+14.	tb_shift_reg
+#	Describe and test the turbo decoding by VHDL
+1.	abPermut
+2.	accDist
+3.	accDistSel
+4.	acs
+5.	adder
+6.	clkDiv
+7.	clkrst
+8.	cmp2
+9.	cod2
+10.	cod3
+11.	coder
+12.	delayer
+13.	distance
+14.	distances
+15.	extInf
+16.	interleaver
+17.	iteration
+18.	limiter
+19.	min4
+20.	min8
+21.	mux2
+22.	mux4
+23.	mux8
+24.	opposite
+25.	partDistance
+26.	punct
+27.	reduction
+28.	reg
+29.	sova (TOP LEVEL)
+30.	stateSel
+31.	subs
+32.	tb_sova
+33.	tb_turboDec
+34.	trellis1
+35.	trellis2
+36.	turboDec (TOP LEVEL)
+37.	turbopack
+38.	zPermut
+# System and Application requirements
+## The application requirements for using Turbo-Code are
+1.	MATLAB version (2022b) or later.
+2.	Xilinx ISE 14.7.
+# Running the Matlab turbo code simulation
 1.	Download Matlab Encoder and Decoder Files.
 2.	Run Matlab.
 3.	Go to project.
 4.	Run Main Functions (Encoding and Decoder).
 5.	Give it your input vector.
-
-Running the VHDL turbo code implementation and simulation:
+# Running the VHDL turbo code implementation and simulation
 1.	Download VHDL Encoder and Decoder Files.
 2.	Run ISE.
 3.	Go to project Directory.
 4.	TOP LEVEL ENTITIES are Encode, Sova, and turboDec, respectively.
 5.	Simulate tb_encode, tb_sova, and tb_turboDec, respectively.
-
-More details about turbo code:
+# More details about turbo code
 The discovery of turbo codes was a monumental event in the error control coding discipline, one that fundamentally changed the way it will be thought of and practiced. In many respects the introduction of turbo codes in 1993 was a turning point in the field of error control coding, when, after more than 50 years of striving to achieve Shannon’s capacity limit, it was suddenly and unexpectedly achieved. Although LDPC codes had been introduced many years earlier, their potential had not been realized, and it was only after Berrou, Glavieux and Thitimajshima presented “Near Shannon limit error correcting and decoding: turbo codes” that the combination of concatenation, random-like interleaving and iterative decoding became the new standard for capacity-approaching error correction. The near-capacity performance of turbo codes and their novel iterative decoding algorithm has stimulated an explosion of research efforts to understand this new coding scheme.
 The choice of component codes appears to have reached a consensus. There is only a finite number of primitive polynomials of a given degree and computer searches have narrowed down the set of possible numerator polynomials to those with the best effective free distance. Turbo applications use IIR convolutional codes with v = 3memory elements (such as in wireless telephony) or v = 4 memory elements (such as in space applications). When designing a turbo code, the choice comes down to a trade-off between extra complexity (eight versus 16 states) and around a dB of performance improvement.
 The design of turbo interleavers, however, is still under discussion. The good BER performances of the S-random interleavers introduced in and their extensions (see e.g.) have made them a de facto standard for comparison with new interleaver proposals. The interleavers used in practice are tweaked, usually by trial and error, to fit the particular component codes being employed. New, promising, algorithmic interleavers are based on permutation polynomials that can be algebraically tailored to the given component codes. The exceptional performance of turbo codes is due to the long pseudo-random interleaver, introduced below, which produces codes reminiscent of Shannon’s noisy channel coding theorem, and to the low-complexity iterative algorithm that makes their implementation feasible.
@@ -112,5 +108,5 @@ Fig. 2. Block diagram of a turbo encoder system.
 Since both encoders, encode the same message bits, their decoders can cooperate with one another at the receiver to decode the message. Importantly, the set of message bits is permuted, or interleaved, before reaching the second convolutional encoder. Using interleaving, the parity bits output by the two encoders will be different even if both encoders are the same.
 Turbo codes use an interleaver between two component encoders. The purpose of using the interleaver is to provide randomness to the input sequences and increase the weight of the code words. A number of interleavers are used in turbo codes.
 Turbo Decoder
-The traditional approach to decoding convolutional codes is by using the Viterbi Algorithm (VA) that provides a Maximum Likelihood (ML) sequence. The VA in the most general form is a maximum a-posteriori probability sequence estimator that finds the maximum likelihood path through the trellis diagram given a specific received sequence. Mathematically, the VA finds the rellis path that maximizes the a-posteriori probability P(S|Y ). The Soft-Output Viterbi Algorithm (SOVA) decoder outputs soft values that makes it suitable for use in turbo decoders. The modifications to enable the traditional hard-decision VA to give soft-output values was proposed in.  
+The traditional approach to decoding convolutional codes is by using the Viterbi Algorithm (VA) that provides a Maximum Likelihood (ML) sequence. The VA in the most general form is a maximum a-posteriori probability sequence estimator that finds the maximum likelihood path through the trellis diagram given a specific received sequence. Mathematically, the VA finds the rellis path that maximizes the a-posteriori probability P(S|Y ). The Soft-Output Viterbi Algorithm (SOVA) decoder outputs soft values that makes it suitable for use in turbo decoders. The modifications to enable the traditional hard-decision VA to give soft-output values was proposed in.
 
