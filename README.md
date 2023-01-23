@@ -105,6 +105,7 @@ The first RSC encoder outputs the systematic output c1 and recursive convolution
 As previously mentioned, at the encoder, turbo codes use a parallel concatenation of two convolutional component encoders, as shown in Fig. 2. The length-K message u is encoded directly by the first component encoder, which produces the parity bits p(1); however, it is interleaved (see below) before being encoded by the second convolutional encoder, which produces the parity bits p(2). Turbo codes are systematic codes; thus the bits in u, p(1) and p(2) are all transmitted.
  ![2 jpg](https://user-images.githubusercontent.com/98907330/214027962-7876d6ad-65fa-4afa-a2bb-c9966b6a6446.jpeg)
 Fig. 2. Block diagram of a turbo encoder system.
+
 Since both encoders, encode the same message bits, their decoders can cooperate with one another at the receiver to decode the message. Importantly, the set of message bits is permuted, or interleaved, before reaching the second convolutional encoder. Using interleaving, the parity bits output by the two encoders will be different even if both encoders are the same.
 Turbo codes use an interleaver between two component encoders. The purpose of using the interleaver is to provide randomness to the input sequences and increase the weight of the code words. A number of interleavers are used in turbo codes.
 Turbo Decoder
