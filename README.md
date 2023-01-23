@@ -71,8 +71,8 @@ In order to have reliable communication, channel coding is often employed. Turbo
 38.	zPermut
 # System and Application requirements
 ## The application requirements for using Turbo-Code are:
-•	MATLAB version (2022b) or later.
-•	Xilinx ISE 14.7.
+1.	MATLAB version (2022b) or later.
+2.	Xilinx ISE 14.7.
 # Running the Matlab turbo code simulation:
 1.	Download Matlab Encoder and Decoder Files.
 2.	Run Matlab.
