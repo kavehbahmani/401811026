@@ -93,7 +93,7 @@ The choice of the interleaver is crucial in the code design. Interleaver is used
  ![1 jpg](https://user-images.githubusercontent.com/98907330/214027658-379ec659-ed18-4502-8071-eaf660db34bd.jpeg)
 Fig. 1. Parallel concatenated code.
 
-Encoder
+# Encoder
 The generic form of a turbo encoder consists of two encoders separated by the interleaver. The two encoders used are normally identical and the code is systematic, i.e., the output contains the input bits as well. Turbo codes are linear codes. Linear codes are codes for which the modulo sum of two valid code words is also a valid codeword. A “good” linear code is one that has mostly high-weight code words. The weight or Hamming weight of a codeword is the number of ones that it contains, e.g., the Hamming weight of codeword ‘000’ and ‘101’ is 0 and 2 respectively. High-weight code words are desirable because it means that they are more distinct, and thus the decoder will have an easier time distinguishing among them. While a few low-weight code words can be tolerated, the relative frequency of their occurrence should be minimized. To summarize, it can be said that turbo codes make use of three simple ideas: 
 1.	Parallel concatenation of codes to allow simpler decoding 
 2.	Interleaving to provide better weight distribution 
@@ -108,6 +108,6 @@ Fig. 2. Block diagram of a turbo encoder system.
 
 Since both encoders, encode the same message bits, their decoders can cooperate with one another at the receiver to decode the message. Importantly, the set of message bits is permuted, or interleaved, before reaching the second convolutional encoder. Using interleaving, the parity bits output by the two encoders will be different even if both encoders are the same.
 Turbo codes use an interleaver between two component encoders. The purpose of using the interleaver is to provide randomness to the input sequences and increase the weight of the code words. A number of interleavers are used in turbo codes.
-Turbo Decoder
+# Decoder
 The traditional approach to decoding convolutional codes is by using the Viterbi Algorithm (VA) that provides a Maximum Likelihood (ML) sequence. The VA in the most general form is a maximum a-posteriori probability sequence estimator that finds the maximum likelihood path through the trellis diagram given a specific received sequence. Mathematically, the VA finds the rellis path that maximizes the a-posteriori probability P(S|Y ). The Soft-Output Viterbi Algorithm (SOVA) decoder outputs soft values that makes it suitable for use in turbo decoders. The modifications to enable the traditional hard-decision VA to give soft-output values was proposed in.  
 
